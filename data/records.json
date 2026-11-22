@@ -2184,7 +2184,7 @@
       "valid_on": 13
     },
     {
-      "first": "K08",
+      "first": "K11",
       "second": "K13",
       "cross_week": false,
       "same_arm": true,
@@ -2202,7 +2202,7 @@
       "valid_on": 13
     },
     {
-      "first": "K08",
+      "first": "K11",
       "second": "K13",
       "cross_week": false,
       "same_arm": true,
@@ -2235,6 +2235,85 @@
       "annual_variable": 39000,
       "shared_setup": 8000,
       "trial": 21000
+    }
+  ],
+  "paired": [
+    {
+      "first": "K01",
+      "second": "K02",
+      "weeks": 4,
+      "arm": "邀请",
+      "yy": 2,
+      "yn": 1,
+      "ny": 1,
+      "nn": 4
+    },
+    {
+      "first": "K11",
+      "second": "K13",
+      "weeks": 8,
+      "arm": "邀请",
+      "yy": 1,
+      "yn": 1,
+      "ny": 0,
+      "nn": 3
+    },
+    {
+      "first": "K11",
+      "second": "K13",
+      "weeks": 8,
+      "arm": "对照",
+      "yy": 1,
+      "yn": 0,
+      "ny": 1,
+      "nn": 2
+    },
+    {
+      "first": "K14",
+      "second": "K17",
+      "weeks": 4,
+      "arm": "对照",
+      "yy": 3,
+      "yn": 1,
+      "ny": 2,
+      "nn": 4
+    }
+  ],
+  "trial_pools": [
+    {
+      "pool": "A",
+      "min_recruit": 16,
+      "max_recruit": 53,
+      "controls": 22
+    },
+    {
+      "pool": "B",
+      "min_recruit": 12,
+      "max_recruit": 25,
+      "controls": 12
+    }
+  ],
+  "trial_options": [
+    {
+      "district": "D1",
+      "pool": "A",
+      "recruits": 27,
+      "controls": 14,
+      "basis": "F04"
+    },
+    {
+      "district": "D2",
+      "pool": "B",
+      "recruits": 16,
+      "controls": 9,
+      "basis": "F07"
+    },
+    {
+      "district": "D3",
+      "pool": "A",
+      "recruits": 21,
+      "controls": 12,
+      "basis": "F04"
     }
   ],
   "decisions": [
